@@ -25,10 +25,14 @@ li {
 
 li a {
   display: flex;
-  color: gray;
+  color: rgb(39, 39, 39);
   text-align: center;
   padding: 10px;
   text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 .search-img {
@@ -58,6 +62,7 @@ li a {
 .nav-links {
   text-decoration: none;
   color: gray;
+  padding: 10px 10px 0px 15px;
 }
 
 .search-img {
@@ -86,16 +91,15 @@ li a {
 }
 
 #input-box {
-  width: 545px;
+  width: 515px;
   min-width: 350px;
   border-radius: 50px;
   height: 34px;
-  padding: 0px 0px 0px 15px;
+  padding: 0px 0px 0px 25px;
   border: none;
 }
 
 #input-box:hover {
-
 }
 
 #email-circle {
@@ -113,8 +117,7 @@ li a {
 
 .button-container {
   display: flex;
-justify-content: center;
-
+  justify-content: center;
 }
 
 footer {
@@ -123,22 +126,13 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: rgb(231, 231, 231);
+  color: gray;
 }
 
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
-
-svg {
-  background-color: magenta;
-}
-
-.form-mic {
-}
-
-
-
 
 .buttons {
   border: none;
@@ -146,23 +140,58 @@ svg {
   opacity: 0.75;
   height: 36px;
   justify-content: space-around;
+  color: rgb(31, 31, 31);
 }
 
 .buttons:hover {
   box-shadow: 0 1px 2px rgba(32, 33, 36, 0.28);
   border-color: rgba(223, 225, 229, 0);
+  color: black;
 }
 
-
 .micbutton {
-    width: 25px;
-    height: 25px;
-   
-    border: none;
-    background: transparent;
-    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    cursor: pointer;
-    padding: 0px 0px 0px 0px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: transparent;
+  background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  padding: 0px 0px 0px 0px;
+}
 
+#button1 {
+  padding: 26px 05px 20px 20px;
+}
+
+#button2 {
+  padding: 26px 20px 20px 05px;
+}
+
+#mag-glass {
+  width: 15px;
+  height: 15px;
+  padding: 0px 0px 0px 10px;
+}
+
+.magglass {
+  border: none;
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  padding: 04px 0px 0px 0px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: transparent;
+}
+
+#emailcircle {
+  padding: 05px 20px 0px 20px;
+}
+
+#squaremenu {
+  padding: 08px 0px 0px 15px;
+}
