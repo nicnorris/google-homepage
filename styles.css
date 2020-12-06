@@ -68,19 +68,34 @@ li a {
 
 .search-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.search-container:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
 }
 
 #input-box {
-  border-radius: 50px;
-  width: 450px;
+  width: 545px;
   min-width: 350px;
+  border-radius: 50px;
   height: 34px;
-  outline: none;
-  outline-color: initial;
-  outline-style: none;
-  outline-width: initial;
+  padding: 0px 0px 0px 15px;
+  border: none;
+}
+
+#input-box:hover {
+
 }
 
 #email-circle {
@@ -98,7 +113,8 @@ li a {
 
 .button-container {
   display: flex;
-  justify-content: center;
+justify-content: center;
+
 }
 
 footer {
@@ -113,3 +129,40 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+svg {
+  background-color: magenta;
+}
+
+.form-mic {
+}
+
+
+
+
+.buttons {
+  border: none;
+  border-radius: 2px;
+  opacity: 0.75;
+  height: 36px;
+  justify-content: space-around;
+}
+
+.buttons:hover {
+  box-shadow: 0 1px 2px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+
+.micbutton {
+    width: 25px;
+    height: 25px;
+   
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    padding: 0px 0px 0px 0px;
+
